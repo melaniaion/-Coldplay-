@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coldplay</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.webp" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li id = "lista"><a href="index.html" onmouseover="mouseover_meniu(this)" onmouseout="mouseout_meniu(this)">Home</a></li>
+                <li id = "lista"><a href="about.html" onmouseover="mouseover_meniu(this)" onmouseout="mouseout_meniu(this)">About</a></li>
+                <li id = "lista"><a href="songs.html" onmouseover="mouseover_meniu(this)" onmouseout="mouseout_meniu(this)">Songs</a></li>
+            </ul>
+       </nav>
+    </header>  
+
+    <div class="container" id = "container">
+        <div class="content" id = "content">
+            <a href="about.html#about" class="button">Find tickets here</a>
+            <h1>The new album<br>is out now</h1>
+            <p onclick="changeText(this)" id = "p1">-"There's a paradise they couldn't capture
+            <br>That bright infinity inside your eyes"-</p>
+
+        <div class="arrows" id = "arrows">
+            <img src="images/previous.png" id = "arrow1">
+            <img src="images/next.png" id = "arrow2"> 
+        
+        </div>
+        </div>
+
+    <img onmouseover="showPlaylist(this)" onmouseout="displayPlaylist(this)" src="images/concert.png" class="concert_image">
+    <div class="social">
+        <a id = "socials"  href="https://www.facebook.com/coldplay">FACEBOOK</a>
+        <a id = "socials"  href="https://www.instagram.com/coldplay/?hl=en">INSTAGRAM</a>
+        <a id = "socials"  href="https://twitter.com/coldplay?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">TWITTER</a>
+    </div>
+    </div> 
+    <div class = "MyList" id = "MyList">
+        <ul id = "listaMelodii"></ul>
+    </div>
+<script src="index.js"></script>
+</body>
+
+<footer>
+    <p><i>Melania Ion<br>2022</i></p>
+</footer>
+</html>

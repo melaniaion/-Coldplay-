@@ -1,0 +1,22 @@
+{
+    "songs": [
+        {
+            "name": "My Universe",
+            "year": "2021",
+            "img": "https://i.pinimg.com/originals/1a/d6/1f/1ad61fa6027ec863fb240dbbd8583da7.png",
+            "id": "3041017a-e8f5-470e-843b-5f462bebd967"
+        },
+        {
+            "name": "Let somebody go",
+            "year": "2021",
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Let_Somebody_Go.jpeg/220px-Let_Somebody_Go.jpeg",
+            "id": "1acd738d-bfe8-4cc3-896d-c39157a46944"
+        },
+        {
+            "name": "Fix you ",
+            "year": "2005",
+            "img": "https://upload.wikimedia.org/wikipedia/en/b/b1/Coldplay_-_Fix_You.jpg",
+            "id": "8bc713df-4a11-4f0e-b223-6f148047178b"
+        }
+    ]
+}
